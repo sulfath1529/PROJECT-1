@@ -1,0 +1,288 @@
+
+.navbar {
+    background-color: white;
+    font-size: 19px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+
+.navbar-brand {
+    font-weight: 500;
+    color: green;
+    font-size: 24px;
+}
+
+.login-button {
+    background-color: hwb(0 3% 97%);
+    color: hwb(0 84% 14%);
+    font-size: 19px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background=-color;
+
+}
+
+.login-button:hover {
+    background-color: #3c3d3c;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: hwb(0 0% 100%);
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: hsl(0, 0%, 4%);
+}
+
+@media (min-width:991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link:active:before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+
+
+.first{
+
+    margin-top: 100px;
+}
+
+.card-set {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 430px;
+    width: 500px;
+    border-radius: 40px;
+    z-index: 2;
+}
+
+.sectionA {
+    height: 250px;
+    width: 460px;
+    
+    border: transparent;
+    background-color: white;
+    border-radius: 40px;
+    z-index: -1;
+    margin-top: -160px;
+    padding-top: 100px;
+    padding-left: 40px;
+    line-height: 10px;
+
+}
+
+.sectionA button {
+    height: 55px;
+    width: 180px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 110px;
+    background-color: oklab(6.9639999999999995% -0.00554 -0.0242);
+    color: aliceblue;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sectionA button:active {
+    background-color: hwb(0 39% 60%);
+    height: 60px;
+
+}
+
+.sectionA h1 {
+    font-size: 37px;
+    color: aliceblue;
+}
+
+.sectionA h5 {
+    font-size: 27px;
+
+}
+
+.sectionA p {
+    font-size: 22px;
+}
+
+
+
+
+#resort {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.setA img {
+    margin-left: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    height:400px;
+     width:500px;
+    
+}
+
+.setB {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.setB button {
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    border-radius: 13px;
+    background-color: #362816;
+    color: aliceblue;
+    font-style: oblique;
+}
+
+.setB button:active {
+    background-color: hwb(33 9% 60%);
+    height: 43px;
+    width: 145px;
+}
+
+.setB h5 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+@media(max-width:1540px){
+    #resort {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.setA img {
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 400px;
+    width: 700px;
+    
+}
+}
+@media(max-width:1200px){
+    #resort {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.setA img {
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 400px;
+    width: 500px;
+    
+}
+}
+
+@media(max-width:1024px){
+    #resort {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.setA img {
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 400px;
+    width: 450px;
+    
+}
+}
+@media(max-width:900px){
+    .setA img {
+    
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 350px;
+    width: 340px;
+    
+}
+}
+
+
+@media(max-width:768px){
+   
+
+
+.setA img {
+    
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 350px;
+    width: 350px;
+    
+}
+}
+@media(max-width:675px){
+    #resort {
+    display: grid;
+    grid-template-columns: 1fr ;
+
+}
+.setA img {
+    margin-left: 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 340px;
+    width: 500px;
+    
+}
+}
+@media(max-width:430px){
+    #resort {
+    display: grid;
+    grid-template-columns: 1fr ;
+
+}
+.setA img {
+    margin-left: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    height: 340px;
+    width: 330px;
+    
+}
+}

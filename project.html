@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="first-set">
+            <div class="box1"></div>
+            <div class="box2">
+                <h1>Hello!</h1>
+                
+                
+                <form id="myform">
+                    <input type="text" class="ip" id="name" placeholder="Full Name "><br>
+                    <span id="nameerror" class="error"></span><br><br>
+
+                    
+                    <input type="email" class="ip" id="email" placeholder="Email"><br>
+                    <span id="emailerror" class="error"></span><br><br>
+
+                    
+                    <input type="text" id="number" class="ip" placeholder="Contact No"><br>
+                    <span id="numbererror" class="error"></span><br><br>
+
+                    <input type="password" id="password" class="ip" placeholder="Password"><br>
+                    <span id="passworderror" class="error"></span><br><br>
+
+                    <button type="submit">Login</button>
+                </form>
+
+                <p id="states"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+    <script>
+        emailjs.init("FhLKslGZVAy_o1G3A");
+
+        const form = document.getElementById("myform");
+        const states = document.getElementById("states");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let number = document.getElementById("number").value;
+            let password = document.getElementById("password").value;
+
+            let nameerror = document.getElementById("nameerror");
+            let emailerror = document.getElementById("emailerror");
+            let numbererror = document.getElementById("numbererror");
+            let passworderror = document.getElementById("passworderror");
+
+            const passwordPattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+
+            if (name === "") {
+                nameerror.innerHTML = "Please enter your name";
+                return;
+            }
+
+            if (email === "") {
+                emailerror.innerHTML = "please enter your email";
+                return;
+            }
+            if (!email.endsWith(".com")) {
+                emailerror.innerHTML = "Email must contain '.com'";
+                return;
+            }
+            if (number === "") {
+                numbererror.innerHTML = "Please enter your mobile no";
+                return;
+            } 
+            if (number.length !== 10) {
+                numbererror.innerHTML = "10 numbers mandatory";
+                return;
+            }
+            if (password === "") {
+                passworderror.innerHTML = "Plaase enter your password";
+                return;
+            } 
+            if (password.length < 8) {
+                passworderror.innerHTML = "password minimum 8 charecter";
+                return;
+            } 
+            if (!passwordPattern.test(password)) {
+                passworderror.innerHTML = "include one uppercase letter, one lowercase letter, and one number";
+                return;
+            }
+
+
+            let temp = {
+                name: name,
+                email: email,
+                number: number,
+                password: password
+            };
+
+            localStorage.setItem("temp",JSON.stringify(temp));
+
+            emailjs.send('service_ut5nqka', 'template_5doo83j', temp).then(
+                (response) => {
+                    alert("Login succesfully");
+                    window.location.assign("webpage.html")
+                },
+                (error) => {
+                    console.log("sorry...something error!!")
+                },
+            );
+        })
+    </script>
+</body>
+
+</html>

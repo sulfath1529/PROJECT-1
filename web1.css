@@ -1,0 +1,227 @@
+.navbar {
+    background-color: white;
+    font-size: 19px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+
+.navbar-brand {
+    font-weight: 500;
+    color: green;
+    font-size: 24px;
+}
+
+.login-button {
+    background-color: hwb(0 3% 97%);
+    color: hwb(0 84% 14%);
+    font-size: 19px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background=-color;
+
+}
+
+.login-button:hover {
+    background-color: #3c3d3c;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: hwb(0 0% 100%);
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: hsl(0, 0%, 4%);
+}
+
+@media (min-width:991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: green;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link:active:before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+
+.first-set{
+    margin-top: -60px;
+    height: 700px;
+    width:100% ;
+    background-image: url(https://chasingthedonkey.b-cdn.net/wp-content/uploads/2023/03/Colorful-hot-air-balloons-before-launch-in-Goreme-national-park_sunrise_Turkey_Depositphotos_193767366_S.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.first-set h1{
+    color: white;
+    font-size: 80px;
+    padding-top: 550px;
+    padding-left: 100px;
+    font-weight: 10px;
+}
+.second-set{
+   padding-left: 100px; 
+   padding-right: 100px;
+   font-size: 25px;
+   line-height: 40px;
+   letter-spacing: 1.5px;
+}
+.thred-set{
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+   line-height: 40px;
+   letter-spacing: 1.5px;
+
+}
+
+.thred-set img{
+    padding-left: 100px;
+    
+
+}
+.footer-icon {
+    background-color: hwb(0 98% 1%);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-icon i {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: #fff;
+    color: hwb(120 40% 59%);
+    padding-top: 17px;
+    height: 50px;
+    width: 50px;
+    gap: 30px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 20px;
+
+
+}
+
+.foot p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    margin-top: 10px;
+
+}
+
+.footer h1 {
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+@media(max-width:1100px){
+    .thred-set {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .thred-set img{
+        width: 700px;
+    }
+}
+@media(max-width:666px){
+    .thred-set {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .thred-set img{
+        width: 600px;
+        padding-left: -40px;
+    }
+    .thred-set h2{
+        align-items: center;
+        text-align: center;
+    }
+    .thred-set p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:570px){
+    .first-set h1{
+        font-size: 60px;
+    }
+    .thred-set {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .thred-set img{
+        width: 450px;
+        padding-left: 20px;
+    }
+    .thred-set h2{
+        align-items: center;
+        text-align: center;
+    }
+    .thred-set p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media(max-width:405px){
+    .thred-set {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .thred-set img{
+        width: 400px;
+        height: 350px;
+        padding-left: 20px;
+    }
+    .thred-set h2{
+        align-items: center;
+        text-align: center;
+    }
+    .thred-set p{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+

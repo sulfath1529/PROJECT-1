@@ -1,0 +1,172 @@
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.box {
+    background-color: hsl(276, 6%, 83%);
+    height: 840px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box1 {
+
+    position: absolute;
+    z-index: 1;
+    height: 700px;
+    width: 600px;
+    top: 60px;
+    background-color: hsl(300, 3%, 6%);
+    border-radius: 20px;
+    transform: rotate(172deg);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.box2 {
+    position: relative;
+    z-index: 2;
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    top: 5px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#myform {
+    margin-top: 50px;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    margin-left: 80px;
+    border-radius: 15px;
+    border: transparent;
+    background-color: lab(91.85% -0.45 -1.81);
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+.error {
+    color: red;
+    padding-left: 100px;
+
+}
+
+button {
+    margin-left: 250px;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    font-family: serif;
+}
+
+button:active {
+    background-color: #615b5b;
+    border: transparent;
+}
+
+h1 {
+    font-size: 110px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media(max-width:650px){
+    .box1 {
+    height: 450px;
+    width: 350px;
+}
+
+.box2 {
+    height: 450px;
+    width: 350px;
+    margin-top: 60px;
+}
+input {
+    height: 30px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -10px;
+
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+button{
+    margin-left: 90px;
+    margin-top: -10px;
+}
+}
+
+@media(max-width:450px){
+    .box1 {
+    height: 400px;
+    width: 300px;
+}
+
+.box2 {
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+}
+input {
+    height: 30px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -10px;
+
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+button{
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+}
+@media(max-width:320px){
+    .box1 {
+    height: 450px;
+    width: 250px;
+    margin-top: 90px;
+}
+
+.box2 {
+    height: 450px;
+    width: 250px;
+    margin-top: 150px;
+    
+    
+}
+input {
+    height: 20px;
+    width: 150px;
+    margin-left: 40px;
+   
+    
+   
+
+}
+
+
+
+
+}
