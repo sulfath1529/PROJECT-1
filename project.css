@@ -5,7 +5,7 @@ body {
 
 .box {
     background-color: hwb(280 74% 25%);
-    height: 840px;
+    height: 830px;
     z-index: 3;
     display: flex;
     justify-content: space-around;
