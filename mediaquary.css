@@ -1,0 +1,696 @@
+@media(max-width:1600px) {
+    .intro img {
+        width: 700px;
+    }
+
+    .card img {
+        height: 400px;
+        width: 530px;
+        border-radius: 30px;
+    }
+
+
+    .big-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-left: 50px;
+    }
+
+    .carosel-head h1 {
+        font-size: 70px;
+        padding-left: 480px;
+        line-height: 80px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 70px;
+        padding-left: 500px;
+
+    }
+
+}
+@media(max-width:1504px){
+    .card img{
+        width: 490px;
+    }
+}
+@media(max-width:1398px){
+    .card img{
+        width: 460px;
+    }
+}
+@media(max-width:1205px){
+    .card img{
+        width: 40px;
+    }
+}
+
+@media(max-width:1334px) {
+    .card img {
+        height: 400px;
+        width: 440px;
+        border-radius: 30px;
+    }
+
+    .carosel-head h1 {
+        font-size: 70px;
+        padding-left: 400px;
+        line-height: 80px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 70px;
+        padding-left: 360px;
+
+    }
+
+    .big-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-left: 30px;
+    }
+
+    .carosel-head {
+        position: relative;
+        z-index: 2;
+        top: -400px;
+        padding-left: 50px;
+
+    }
+
+    .footer-set-one {
+        margin-left: -80px;
+        gap: 17px;
+    }
+
+    .big-box {
+        margin-left: 100px;
+    }
+
+    .intro img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .reviwe {
+        gap: 10px
+    }
+
+}
+
+@media(max-width:1076px){
+    .card img{
+        width: 510px;
+    }
+    .big-box{
+        margin-left: 10px;
+    }
+    .intro img{
+        width: 390px;
+    }
+}
+@media(max-width:980px){
+    .card img{
+        width: 480px;
+    }
+    .box{
+        width: 450px;
+    }
+
+}
+
+
+@media(max-width:930px) {
+    .card img {
+        height: 400px;
+        width: 460px;
+        border-radius: 30px;
+    }
+    .intro img{
+        width: 350px;
+    }
+    .big-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 200px;
+    }
+}
+
+
+@media(max-width:834px) {
+    .card img {
+        height: 400px;
+        width: 410px;
+        border-radius: 30px;
+    }
+
+    .intro img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .about {
+        margin-left: -26px;
+    }
+
+    .asd {
+        padding-left: 30px;
+    }
+
+    .carosel-head h1 {
+        font-size: 60px;
+        padding-left: 290px;
+        line-height: 80px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 60px;
+        padding-left: 250px;
+
+    }
+
+    .footer-set-one {
+        margin-left: -10px;
+        font-size: 20px;
+    }
+
+
+}
+
+@media(max-width:780px) {
+    .card img {
+        height: 400px;
+        width: 380px;
+        border-radius: 30px;
+    }
+
+    .intro {
+        display: block;
+    }
+
+    .intro img {
+        width: 650px;
+        height: 500px;
+        padding-left: 30px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .footer-set-one {
+        margin-left: -70px;
+        font-size: 20px;
+        gap: 10px;
+    }
+
+    .asd {
+        gap: 20px;
+    }
+
+
+}
+@media(max-width:760px){
+    .card img{
+        width: 730px;
+    }
+    .card{
+        width: 100px;
+    }
+}
+@media(max-width:730px){
+    .card img{
+        width: 650px;
+    }
+    
+}
+
+
+@media(max-width:617px) {
+    .card img {
+        height: 400px;
+        width: 570px;
+        border-radius: 30px;
+    }
+
+    .intro {
+        display: block;
+        margin-top: -100px;
+    }
+
+    .intro img {
+        width: 550px;
+        height: 300px;
+        text-align: center;
+
+    }
+
+    .last-set h1 {
+        font-size: 40px;
+    }
+
+    .servise {
+        font-size: 30px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about button {
+        margin-left: 150px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .footer-set-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -40px;
+
+        margin-top: -30px;
+        font-size: 10px;
+    }
+
+    .big-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .box {
+        width: 360px;
+        height: 350px;
+        font-size: 17px;
+        padding-top: 30px;
+    }
+
+    .asd {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .asd h3 {
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .reviwe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+    }
+
+    .last-set h1 {
+        font-size: 50px;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carosel-head {
+        padding-top: 200px;
+
+    }
+
+    .carosel-head h1 {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-left: 190px;
+        line-height: 60px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 30px;
+        padding-left: 170px;
+
+    }
+
+    .footer h1 {
+        font-size: 50px;
+        line-height: 100px;
+    }
+}
+
+@media(max-width:540px) {
+    .card img{
+        width: 540px;
+    }
+    .intro {
+        display: block;
+        margin-top: -100px;
+    }
+
+    .intro img {
+        width: 400px;
+        height: 300px;
+        padding-left: 30px;
+    }
+
+    .last-set h1 {
+        font-size: 40px;
+    }
+
+    .servise {
+        font-size: 30px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about button {
+        margin-left: 150px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .footer-set-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -40px;
+
+        margin-top: -30px;
+        font-size: 10px;
+    }
+
+    .big-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .box {
+        width: 360px;
+        height: 350px;
+        font-size: 17px;
+        padding-top: 30px;
+    }
+
+    .asd {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .asd h3 {
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .reviwe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+    }
+
+    .last-set h1 {
+        font-size: 50px;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carosel-head {
+        padding-top: 200px;
+
+    }
+
+    .carosel-head h1 {
+
+        font-size: 30px;
+        padding-left: 100px;
+        line-height: 60px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 30px;
+        padding-left: 100px;
+
+    }
+}
+
+@media(max-width:430px) {
+    .card img {
+        height: 400px;
+        width: 430px;
+        border-radius: 30px;
+    }
+
+    .intro {
+        display: block;
+        margin-top: -100px;
+    }
+
+    .intro img {
+        width: 400px;
+        height: 300px;
+        padding-left: 30px;
+    }
+
+    .last-set h1 {
+        font-size: 40px;
+    }
+
+    .servise {
+        font-size: 30px;
+    }
+
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about button {
+        margin-left: 150px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .footer-set-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -40px;
+
+        margin-top: -30px;
+        font-size: 10px;
+    }
+
+    .big-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    .box {
+        width: 360px;
+        height: 350px;
+        font-size: 17px;
+        padding-top: 30px;
+    }
+
+    .asd {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .asd h3 {
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .reviwe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+    }
+
+    .last-set h1 {
+        font-size: 50px;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carosel-head {
+        padding-top: 200px;
+
+    }
+
+    .carosel-head h1 {
+
+        font-size: 30px;
+        padding-left: 100px;
+        line-height: 60px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 30px;
+        padding-left: 100px;
+
+    }
+
+    .footer h1 {
+        font-size: 30px;
+        line-height: 100px;
+    }
+}
+
+@media(max-width:414px) {
+    .card img {
+        height: 400px;
+        width: 410px;
+        border-radius: 30px;
+    }
+}
+
+@media(max-width:390px) {
+    .card img {
+        height: 400px;
+        width: 380px;
+        border-radius: 30px;
+    }
+}
+
+@media(max-width:360px) {
+    .card img {
+        height: 400px;
+        width: 360px;
+        border-radius: 30px;
+    }
+
+    .box {
+        width: 330px;
+        height: 250px;
+        font-size: 12px;
+        padding-top: 30px;
+    }
+
+    .last-set h1 {
+        font-size: 40px;
+    }
+
+    .servise {
+        font-size: 30px3
+    }
+
+    .footer-set-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -40px;
+        margin-top: -30px;
+        font-size: 10px;
+
+    }
+
+    .intro img {
+        width: 390px;
+        height: 300px;
+        padding-left: 0px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+
+    }
+
+    .carosel-head h1 {
+
+        padding-top: 80px;
+        line-height: 60px;
+        padding-left: 50px;
+    }
+
+    .carosel-head h2 {
+
+        line-height: 35px;
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:344px) {
+    .carosel-head {
+        padding-top: 200px;
+
+    }
+
+
+    .last-set h1 {
+        font-size: 40px;
+    }
+
+    .servise {
+        font-size: 30px;
+    }
+
+    .carosel-head h1 {
+
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+
+    .carosel-head h2 {
+        font-size: 30px;
+        padding-left: 60px;
+
+    }
+
+    .box {
+        width: 300px;
+        height: 250px;
+        font-size: 12px;
+        padding-top: 30px;
+    }
+
+    .footer-set-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: -40px;
+
+        margin-top: -30px;
+        font-size: 8px;
+    }
+
+    .intro img {
+        width: 290px;
+        height: 300px;
+        padding-left: 30px;
+    }
+    .card img{
+        width: 340px;
+    }
+}

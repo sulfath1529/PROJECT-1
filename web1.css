@@ -92,11 +92,14 @@
     font-weight: 10px;
 }
 .second-set{
-   padding-left: 100px; 
-   padding-right: 100px;
+   padding-left: 50px; 
+   padding-right: 50px;
    font-size: 25px;
    line-height: 40px;
    letter-spacing: 1.5px;
+}
+.second-set p{
+    align-items: center;
 }
 .thred-set{
     padding-top: 100px;
@@ -180,8 +183,16 @@
         font-size: 20px;
         text-align: center;
     }
+    .second-set p{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 @media(max-width:570px){
+    .second-set p{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .first-set h1{
         font-size: 60px;
     }
